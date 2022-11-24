@@ -1,0 +1,108 @@
+*{
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+li{list-style: none;}
+.d-none{ display: none !important;}
+.h0 { height: 0 !important; overflow:  hidden !important;
+      padding: 0 !important; margin: 0 !important;
+}
+.navbar-inverse {
+    background-color: black;
+}
+@media (min-width: 1440px){
+    .container {
+      width: 1410px;
+    }
+  }
+@media (min-width: 1200px){
+    .container {
+      width: 1600px;}
+    }
+
+
+#main_item1{
+    background-image: url(../img/sony/sony_main_01.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: auto calc(100% - 10rem);
+    max-height:717px;
+    height: 0;
+    padding-top: 100%;
+    background-color:black;
+}
+#main_item2{
+    background-image: url(../img/sony/sony_main_02.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: auto calc(100% - 10rem);
+    max-height:px;
+    height: 0;
+    padding-top: 100%;
+    background-color:black;
+}
+#main_item3{
+    background-image: url(../img/sony/begoo.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: auto calc(100% - 10rem);
+    max-height:px;
+    height: 0;
+    padding-top: 100%;
+    background-color:black;
+}
+
+#mainBanner{
+    background-image: url(../img/sony);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: auto calc(100% - 10rem);
+    max-height:717px;
+    height: 0;
+    padding-top: 50px;
+    background-color:black;
+}
+#adBanner{
+    background-image: url("../img/sony/eyeAF.jpg");
+    background-repeat: no-repeat;
+    background-color: #ff7f02;
+    background-position: center bottom;
+    background-size: 100% auto;
+}
+aside.cta-quote {       
+    padding: 50px 0 80vw;
+}
+@media (min-width: 768px){
+    aside.cta-quote {       
+        padding: 100px 0;
+    }
+    #adBanner{
+         background-position: right center;
+         background-size: auto 522px;
+    }
+}
+@media (min-width:992px){
+    aside.cta-quote {
+        padding: 200px 0;
+    }
+    #main_item1, #main_item2, #main_item3{       
+        background-size:contain;
+        height:717px;        
+        padding-top:0;             
+    }    
+}
+
+
+
+@media (min-width:992px){
+    aside.cta-quote {
+        padding: 200px 0;
+    }
+    #mainBanner{       
+        background-size:contain;
+        height:10px;        
+        padding-top:0;             
+    }    
+}
+
+
