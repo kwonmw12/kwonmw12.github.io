@@ -22,7 +22,7 @@ li{list-style: none;}
 
 
 #main_item1{
-    background-image: url(/kmw/img/sony/sony_main_01.jpg);
+    background-image: url("/kmw/img/sony/sony_main_01.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: auto calc(100% - 10rem);
@@ -32,7 +32,7 @@ li{list-style: none;}
     background-color:black;
 }
 #main_item2{
-    background-image: url(/kmw/img/sony/sony_main_02.jpg);
+    background-image: url("/kmw/img/sony/sony_main_02.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: auto calc(100% - 10rem);
@@ -42,7 +42,7 @@ li{list-style: none;}
     background-color:black;
 }
 #main_item3{
-    background-image: url(/kmw/img/sony/begoo.jpg);
+    background-image: url("/kmw/img/sony/begoo.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: auto calc(100% - 10rem);
@@ -53,7 +53,7 @@ li{list-style: none;}
 }
 
 #mainBanner{
-    background-image: url(/kmw/img/sony/a1.jpg);
+    background-image: url("/kmw/img/sony/a1.jpg");
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: auto calc(100% - 10rem);
@@ -64,7 +64,7 @@ li{list-style: none;}
 }
 
 #adBanner{
-    background-image: url(/kmw/img/sony/eyeAF.jpg);
+    background-image: url("/kmw/img/sony/eyeAF.jpg");
     background-repeat: no-repeat;
     background-color: #ff7f02;
     background-position: center bottom;
